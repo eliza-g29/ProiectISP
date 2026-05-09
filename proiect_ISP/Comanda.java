@@ -18,14 +18,27 @@ public class Comanda {
     }
     
     public int plasare_comanda(Comanda comanda) {
-        System.out.println("Comanda " + comanda.ID_comanda + " plasata cu succes.");
+        if (comanda.echipament == null) {
+            throw new IllegalStateException("Comanda nu poate fi plasata: echipamentul nu este selectat.");
+        }
+        if (comanda.echipament.getStare() != Stare_echipament.functional) {
+            throw new IllegalStateException("Comanda nu poate fi plasata: echipamentul selectat este defect.");
+        }
         return comanda.ID_comanda;
     }
 
     public void efectuare_plata(int Timp_utilizare, float pret_pe_min) {
+        if (Timp_utilizare <= 0) {
+            throw new IllegalArgumentException("Timpul de utilizare trebuie sa fie mai mare decat 0.");
+        }
+        if (pret_pe_min <= 0) {
+            throw new IllegalArgumentException("Pretul pe minut trebuie sa fie mai mare decat 0.");
+        }
+        if (this.echipament == null || this.echipament.getStare() != Stare_echipament.functional) {
+            throw new IllegalStateException("Echipamentul nu este functional.");
+        }
         this.Timp_utilizare = Timp_utilizare;
         this.pret_final = Timp_utilizare * pret_pe_min;
-        System.out.println("Plata efectuata: " + pret_final + " RON pentru " + Timp_utilizare + " minute.");
     }
 
     public int getID_comanda() { 
@@ -63,6 +76,6 @@ public class Comanda {
 
     @Override
     public String toString() {
-        return "Comanda: ID=" + ID_comanda+ ", echipament=" + (echipament != null ? echipament.getID_echipament() : "null") + ", ID_client=" + ID_client + ", timp=" + Timp_utilizare + ", pret_final=" + pret_final + ".";
+        return "Comanda: ID=" + ID_comanda + ", echipament=" + (echipament != null ? echipament.getID_echipament() : "null") + ", ID_client=" + ID_client + ", timp=" + Timp_utilizare + ", pret_final=" + pret_final + ".";
     }
 }
