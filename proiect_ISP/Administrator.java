@@ -57,7 +57,6 @@ public class Administrator extends Utilizator {
             return;
         }
         System.out.println("Comenzi client " + client.getNume() + " " + client.getPrenume() + ":");
-        System.out.println("=".repeat(40));
         for (Comanda c : client.getComenzi()) {
             System.out.println(c);
         }
