@@ -60,7 +60,7 @@ public class Main {
 
         // 6. COMANDA - plasare si plata (asociere Client - Comanda)
 
-        System.out.println("\n=== 6. Comanda - plasare si efectuare plata ===");
+        System.out.println("\n 6. Comanda - plasare si efectuare plata");
 
         // Prima comanda: client1 inchiriaza trotineta
         Comanda comanda1 = new Comanda(e1, client1.getID_client());
