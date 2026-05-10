@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
-public class EchipamentTest {
+public class TestAdministrator {
 
     @AfterEach
     public void cleanup() throws Exception {
