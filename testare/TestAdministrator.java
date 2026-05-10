@@ -1,4 +1,5 @@
 package testare;
+import proiect_ISP.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
