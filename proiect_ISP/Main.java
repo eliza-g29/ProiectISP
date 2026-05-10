@@ -30,7 +30,7 @@ public class Main {
         e2.afisare_stare();
         e3.afisare_stare();
 
-        System.out.println("\nActualizare stare echipament ID=2 (defect -> functional) prin Administrator:");
+        System.out.println("\n Actualizare stare echipament ID=2 (defect -> functional) prin Administrator:");
         admin.actualizare_stare_echipament(catalog, 2, Stare_echipament.functional);
         e2.afisare_stare();
 
@@ -44,7 +44,7 @@ public class Main {
             e.afisare_stare();
         }
 
-        System.out.println("\nExista echipamente functionale in catalog: " + catalog.exista_echipament_functional());
+        System.out.println("\n Exista echipamente functionale in catalog: " + catalog.exista_echipament_functional());
 
         // 5. CLIENT - creare, autentificare, creare cont
         
@@ -89,11 +89,7 @@ public class Main {
         e1.afisare_stare();
 
         // Caz 2: client2 raporteaza defectiune
-        client2.raporteaza_defectiune(
-                comanda2,
-                true,
-                "Masina nu mai porneste dupa finalizarea cursei."
-        );
+        client2.raporteaza_defectiune(comanda2, true, "Masina nu mai porneste dupa finalizarea cursei.");
 
         System.out.println("\nStare echipament dupa cazul 2:");
         e3.afisare_stare();
