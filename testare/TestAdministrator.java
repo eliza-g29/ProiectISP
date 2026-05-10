@@ -1,5 +1,4 @@
 package testare;
-import proiect_ISP.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -9,6 +8,13 @@ import java.nio.file.Paths;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
+
+import proiect_ISP.Administrator;
+import proiect_ISP.Catalog;
+import proiect_ISP.Echipament;
+import proiect_ISP.Stare_echipament;
+import proiect_ISP.Tip_echipament;
+
 
 public class TestAdministrator {
 
