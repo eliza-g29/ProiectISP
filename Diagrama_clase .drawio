@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Page-1">
-    <mxGraphModel dx="2870" dy="2161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2488" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,35 +138,35 @@
         </mxCell>
         <UserObject label="" tags="Background" id="37">
           <mxCell parent="1" style="vsdxID=77;fillColor=none;gradientColor=none;strokeColor=none;spacingTop=3;spacingBottom=3;points=[[0,0.5,0],[1,0.5,0],[0.5,1,0],[0.5,0,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1">
-            <mxGeometry height="170" width="259" x="380" y="-30" as="geometry" />
+            <mxGeometry height="260" width="259" x="380" y="-170" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="38" parent="37" style="vsdxID=78;fillColor=#f2f2f2;gradientColor=none;shape=stencil(3ZLdDoIwDIWfZpeQ0SLDa3/eY9EBi5ORMhXf3pFGRRI18dK7duc7XZMegau+0Z0RIPtA/mAudh8agWsBYNvGkA2xErgRuKo8mZr8qd1z3+mRHKujP48TBvbJ0QHyyl0mud8y6mw7Qe/iT3AOaQ7v8S+wpl1U6T5bLRSWgIBFpvK0UGymh7uQCFKV+QJUli550ref5JDowfYJ+aCD9e0L7TTVJolbJJXT9YvUX4zpJs/ZP+z96Tizs8fima3KOsfRnOrzLMYnzjFubg==);strokeColor=#ffffff;points=[[0,0.5,0],[1,0.5,0],[0.5,1,0],[0.5,0,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1">
-          <mxGeometry height="55.59748427672956" width="254" as="geometry" />
+          <mxGeometry height="85.0314465408805" width="254" as="geometry" />
         </mxCell>
         <mxCell id="39" parent="37" style="vsdxID=79;fillColor=#5b9bd5;gradientColor=none;shape=stencil(zZJNDsIgEIVPw5IE4Qi1LnuHiYWWiNAMaNvbC5lGazVduHI3P9/Mm0weU1XsYdBMipgwXPRo29QzdWRSWt9rtClHTNVMVSag7jDcfEv5AIUs0TXcy4aJ5kSZkGKm7CAoPxEKeM49XNAGGoJx3hR2d4mJw2Qjx5Ag2eDfWAfYaZ51uHHQLYPUiqPWw0f57y9z1q/e+5T6/uB9eAf9EdzI5+DlC2OdI1ut+1sf5RJ5UNUP);strokeColor=#ffffff;points=[[0,0.5,0],[1,0.5,0],[0.5,1,0],[0.5,0,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1">
-          <mxGeometry height="23.52201257861635" width="254" as="geometry" />
+          <mxGeometry height="35.974842767295584" width="254" as="geometry" />
         </mxCell>
         <mxCell id="40" parent="37" style="text;vsdxID=77;fillColor=none;gradientColor=none;strokeColor=none;spacingTop=3;spacingBottom=3;labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;overflow=width;;html=1;" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:16.93px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;Client&lt;br/&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="25.882499999999997" width="254" y="-0.38249999999999995" as="geometry" />
+          <mxGeometry height="39.584999999999994" width="254" y="-0.585" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;+getComenzi(): ArrayList&amp;lt;Comanda&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;+adauga_comanda(comanda: Comanda):void&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" tags="Background" id="77">
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;+getComenzi(): ArrayList&amp;lt;Comanda&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;+adauga_comanda(comanda: Comanda):void&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;+raporteaza_defectiune(comanda:Comanda, raporteazaDefect: Boolean, descriere:String):void&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" tags="Background" id="77">
           <mxCell parent="37" style="verticalAlign=middle;align=left;overflow=width;vsdxID=82;fillColor=#5b9bd5;gradientColor=none;fillOpacity=0;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9N5bdMClrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo1zxh5z6RO6Q42BWCfc2oJfdAr/AX/IH+BF/rk7hv7MjaZ/L+RirxJ1Gd);strokeColor=#5b9bd5;spacingTop=-3;spacingBottom=-3;spacingLeft=4;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1">
-            <mxGeometry height="76.76885644768856" width="247" x="3.5" y="70.0012408759124" as="geometry" />
+            <mxGeometry height="117.4111922141119" width="247" x="3.5" y="107.06072133963076" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jAaIzR_7SFN27dZUJjgb-113" edge="1" parent="37" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;rounded=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
-              <mxPoint x="53.5" y="60" />
+              <mxPoint x="53.5" y="91.76470588235293" />
             </Array>
-            <mxPoint x="3.5" y="60" as="sourcePoint" />
-            <mxPoint x="241.5" y="60" as="targetPoint" />
+            <mxPoint x="3.5" y="91.76470588235293" as="sourcePoint" />
+            <mxPoint x="241.5" y="91.76470588235293" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;- comenzi: ArrayList&amp;lt;Comanda&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(91, 155, 213); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" tags="Background" id="jAaIzR_7SFN27dZUJjgb-121">
           <mxCell parent="37" style="verticalAlign=middle;align=left;overflow=width;vsdxID=82;fillColor=#5b9bd5;gradientColor=none;fillOpacity=0;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9N5bdMClrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo1zxh5z6RO6Q42BWCfc2oJfdAr/AX/IH+BF/rk7hv7MjaZ/L+RirxJ1Gd);strokeColor=#5b9bd5;spacingTop=-3;spacingBottom=-3;spacingLeft=4;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1">
-            <mxGeometry height="30" width="247" x="3.5" y="30" as="geometry" />
+            <mxGeometry height="24.12" width="247" x="3.5" y="45.88" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#5b9bd5;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;#nume: String&lt;br/&gt;#prenume: String&lt;br/&gt;#ID_client : Integer&lt;br/&gt;#email: String&lt;br/&gt;#parola: String&lt;br/&gt;#tip:Tip_utilizator&lt;br/&gt;&lt;/font&gt;&lt;/div&gt;" tags="Background" id="51">
@@ -301,10 +301,11 @@
         <mxCell id="jAaIzR_7SFN27dZUJjgb-91" edge="1" parent="1" source="19" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
+              <mxPoint x="730" />
               <mxPoint x="750" y="74" />
             </Array>
             <mxPoint x="254" y="21.445" as="sourcePoint" />
-            <mxPoint x="640" y="74" as="targetPoint" />
+            <mxPoint x="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jAaIzR_7SFN27dZUJjgb-95" edge="1" parent="1" style="endArrow=none;startArrow=diamondThin;endFill=0;startFill=1;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;startSize=8;endSize=8;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="">
@@ -327,7 +328,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jAaIzR_7SFN27dZUJjgb-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
-          <mxGeometry height="30" width="60" x="623" y="50" as="geometry" />
+          <mxGeometry height="30" width="60" x="623" as="geometry" />
         </mxCell>
         <mxCell id="jAaIzR_7SFN27dZUJjgb-101" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
           <mxGeometry height="30" width="60" x="930" y="200" as="geometry" />
