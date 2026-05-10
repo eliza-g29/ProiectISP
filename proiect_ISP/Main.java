@@ -77,6 +77,27 @@ public class Main {
         System.out.println("Comanda plasata cu ID: " + idComanda2);
         comanda2.efectuare_plata(60, e3.getPret_pe_min());
         System.out.println(comanda2);
+        
+        // 6.1 CLIENT - raportare defectiune dupa incheierea comenzii
+
+        System.out.println("\n 6.1 Client - raportare defectiune dupa incheierea comenzii ");
+
+        // Caz 1: client1 nu raporteaza defectiune
+        client1.raporteaza_defectiune(comanda1, false, "");
+
+        System.out.println("\nStare echipament dupa cazul 1:");
+        e1.afisare_stare();
+
+        // Caz 2: client2 raporteaza defectiune
+        client2.raporteaza_defectiune(
+                comanda2,
+                true,
+                "Masina nu mai porneste dupa finalizarea cursei."
+        );
+
+        System.out.println("\nStare echipament dupa cazul 2:");
+        e3.afisare_stare();
+
 
         // Afisare comenzi per client
         System.out.println("\nComenzi client1:");
